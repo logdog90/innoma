@@ -1,0 +1,27 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: var(--base-font-size);
+}
+
+.none {
+    display: none !important;
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+.container {
+    max-width: 1255px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
